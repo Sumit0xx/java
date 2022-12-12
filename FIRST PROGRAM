@@ -1,0 +1,7 @@
+class simple
+{
+public static void main(Stringargs[])
+{
+System.out.println("Hello Java");
+}
+}
