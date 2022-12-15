@@ -1,0 +1,23 @@
+/*
+BASIC PROGRAM -9
+ALL-IN-ONE "  +,  -,  *,   /   "
+ */
+package basicprograms;
+
+import java.util.*;
+public class program9 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter two number");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int add=a+b;
+        int sub=a-b;
+        int mult=a*b;
+        int div=a/b;
+        System.out.println("Addition ="+add);
+        System.out.println("Subtraction="+sub);
+        System.out.println("Multiplication="+mult);
+        System.out.println("Division="+div);
+    }
+}
