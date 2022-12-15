@@ -1,0 +1,33 @@
+/*
+BASIC PROGRAM -14
+AREA
+ALL-IN-ONE AREA PROGRAM
+ */
+package basicprograms;
+
+import java.util.*;
+public class program14 {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter radius");
+        int r=sc.nextInt();
+        System.out.println("Enter value of h and w");
+        int h=sc.nextInt();
+        int w=sc.nextInt();
+        System.out.println("Enter vlaue of l and b");
+        int l=sc.nextInt();
+        int b=sc.nextInt();
+        System.out.println("Enter side");
+        int s=sc.nextInt();
+        double aoc=3.14*r*r;
+        int aor=h*w;
+        double aot=0.5*l*b;
+        int aos=s*s;
+        
+        System.out.println("Area of circle="+aoc);
+        System.out.println("Area of rectangle="+aor);
+        System.out.println("Area of triangle="+aot);
+        System.out.println("Area of square="+aos);
+        
+    }
+}
