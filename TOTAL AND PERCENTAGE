@@ -1,0 +1,22 @@
+/*
+BASIC PROGRAM -15
+WAP TO ENTER 3 SUBJECT MARKS AND FIND TOTAL & PERCENTAGE OF IT.
+ */
+package basicprograms;
+
+import java.util.*;
+public class program15 {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter marks of physics=");
+        double phy=sc.nextDouble();
+        System.out.println("Enter marks of chemistry");
+        double chem=sc.nextDouble();
+        System.out.println("Enter marks of math");
+        double math=sc.nextDouble();
+        double total=phy+chem+math;
+        double per=total/300*100;
+        System.out.println("total="+total);
+        System.out.println("percentage="+per);
+    }
+}
