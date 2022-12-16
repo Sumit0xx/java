@@ -1,0 +1,27 @@
+/*
+BASIC PROGRAM -16
+WAP TO PRINT BASIC SALARY AND PRINT ALL TAXES
+ */
+package basicprograms;
+
+import java.util.*;
+public class program16 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter basic salary");
+        int bs=sc.nextInt();
+        double da=bs*0.15;
+        double ta=bs*0.25;
+        double hra=bs*0.35;
+        double pf=bs*0.55;
+        double gs=bs+da+ta+hra+pf;
+        double ns=gs-pf;
+        
+        System.out.println("DA="+da);
+        System.out.println("TA="+ta);
+        System.out.println("HRA="+hra);
+        System.out.println("PF="+pf);
+        System.out.println("GS="+gs);
+        System.out.println("NS="+ns);
+    }
+}
