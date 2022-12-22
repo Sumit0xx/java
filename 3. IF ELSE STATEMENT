@@ -1,0 +1,23 @@
+/*
+IF ELSE STATEMENT
+PROGRAM -3
+WAP TO CHECK WHETHER A NUMBER IS EVEN OR ODD USING IF ELSE STATEMENT
+ */
+package ifstatement;
+
+import java.util.*;
+public class program3 {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter a number");
+        int num=sc.nextInt();
+        if(num%2==0)
+        {
+            System.out.println("It is even number");
+        }
+        else
+        {
+            System.out.println("It is odd number");
+        }
+    }
+}
