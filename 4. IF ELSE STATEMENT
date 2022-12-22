@@ -1,0 +1,23 @@
+/*
+IF ELSE STATEMENT
+PROGRAM -4
+WAP TO CHECK WHETHET A PERSON IS ELEGIBLE TO VOTE OR NOT.
+ */
+package ifstatement;
+
+import java.util.*;
+public class program4 {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter a number");
+        int age=sc.nextInt();
+        if(age>=18)
+        {
+            System.out.println("You are elegible to vote");
+        }
+        else
+        {
+            System.out.println("Sorry, you are not elegible to vote");
+        }
+    }
+}
