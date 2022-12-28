@@ -1,0 +1,31 @@
+/*
+ IF ELSE LADDER
+PROGRAM -9
+
+ */
+package ifstatement;
+
+import java.util.*;
+public class program9 {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter a number");
+        int num= sc.nextInt();
+        if(num==10)
+        {
+            System.out.println("Number is equal to 10");
+        }
+        else if(num==50)
+        {
+            System.out.println("Number is equal to 50");
+        }
+        else if(num==100)
+        {
+            System.out.println("Nmber is equal to 100");
+        }
+        else
+        {
+            System.out.println("Number is not equal to 10, 50, 100");
+        }
+    }
+}
